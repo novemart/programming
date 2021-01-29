@@ -8,11 +8,10 @@ void board();
 int main()
 {
     // Game starts
-
-    // cout << "Enter your names to start. \nPlayer 1: ";
-    // cin >> p1;
-    // cout << "Player 2: ";
-    // cin >> p2;
+    cout << "Enter your names to start. \nPlayer 1: ";
+    cin >> p1;
+    cout << "Player 2: ";
+    cin >> p2;
     
     board();
     return 0;
